@@ -9,82 +9,88 @@
     </title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   </head>
-  <body class="">
-   
-    <body>
-<
-      <div class="d-flex flex-column align-items-center my-5 bg-light ">
-        <p class="mb-0 titulo">Dimensiones de la vida real de los personajes de</p>
-        <p class="mb-0 titulo"> Star Wars.</p>
-      </div>
+  <div class="container border border-warning  border-top-0 border-end-0 border-bottom-0">
+    <div class="loader-page"></div>
+  
+    <div class="d-flex flex-column align-items-center my-5">
+      <h1 class="titulo text-center mb-0 col-12 col-lg-8 text-white">Dimensiones de la vida real de los personajes de Star Wars.</h1>
+    </div>
        
-
-      <div class=" container border-left d-flex justify-content-center row my-5">
-        <div class="col-12  d-flex flex-wrap align-items-center">
-        <p class="font-weight-bold px-2">1-5 </p> <div class="col-1 bg-warning rounded-circle  circle "></div>
-          <div class="line"></div>
-          
-         
-          <div class="card mx-5 blur-border" style="width: 20rem;">
-            <div class="card-body mt-3 mb-3 d-flex align-items-center">
-              <div class="col-1 rounded-circle bg-danger circle-color mb-5 my-0 mx-3"></div>
-              <div>
-                <h6 class="card-title mb-2">En esta sección...</h6>
-                <p class="card-text my-0">Encontrarás información sobre</p>
-                <p class="card-text my-0">los personajes más populares</p>
-                <p class="card-text">de las películas</p>
-              </div>
-            </div>
-          </div>
-          
-
-          
-          
-          
-          
+    <div class="container">
+      <div class="row">
 
 
 
-
-        </div>
-        <div class="col-12  d-flex flex-wrap align-items-center">
-          <p class="font-weight-bold px-1">6-11 </p>  <div class="col-1 bg-warning rounded-circle  circle"></div>
+        <div id="informacionCantidad" class="font-italic font-weight-bold fs-5"></div>
         
-          <div class="card mx-5 " style="width: 20rem;">
-            <div class="card-body mt-3 mb-3 d-flex align-items-center">
-              <div class="col-1 rounded-circle bg-success circle-color mb-5 my-0 mx-3"></div>
-              <div>
-                <h6 class="card-title mb-2 ">En esta sección...</h6>
-                <p class="card-text my-0">Encontrarás información sobre</p>
-                <p class="card-text my-0">personajes secundarios</p>
-                <p class="card-text">importantes.</p>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-body d-flex align-items-center">
+              <div class="col-1 rounded-circle  colorChocolate circuloTarjetas"></div>
+              <div class="ms-3">
+                <h5 class="card-title  fw-bold">En esta Sección...</h5>
+                <h7 class="card-subtitle p mb-2 text-muted">Encontraras información sobre los</h7><br>
+                <h7 class="card-subtitle mb-2 text-muted">Personajes más populares de las</h7><br>
+                <h7 class="card-subtitle  mb-2 text-muted">Peliculas.</h7><br>
               </div>
             </div>
           </div>
+        </div>
 
+        <div class="d-flex flex-wrap" id="informacionCards">
 
         </div>
-        <div class="col-12  d-flex flex-wrap align-items-center">
-          <p class="font-weight-bold">12-17 </p><div class="col-1 bg-warning rounded-circle  circle"></div>
-          
-         
-          <div class="card mx-5 " style="width: 20rem;">
-            <div class="card-body mt-3 mb-3 d-flex align-items-center">
-              <div class="col-1 rounded-circle bg-info circle-color mb-5 my-0 mx-3"></div>
-              <div>
-                <h6 class="card-title mb-2 ">En esta sección</h6>
-                <p class="card-text my-0">Encontrarás otros personajes</p>
-                <p class="card-text my-0">significativos</p>
+
+        
+        <!-- ------ -->
+        
+
+        <div id="informacionCantidadDos" class="mt-5 mb-0 font-italic font-weight-bold fs-5"></div>
+        
+        <div class="col-lg-4 ">
+          <div class="card">
+            <div class="card-body d-flex align-items-center">
+              <div class="col-1 rounded-circle  colorVerdeAgua circuloTarjetas"></div>
+              <div class="ms-3">
+                <h5 class="card-title  fw-bold">En esta Sección...</h5>
+                <h7 class="card-subtitle p mb-2 text-muted">Encontraras información sobre los</h7><br>
+                <h7 class="card-subtitle mb-2 text-muted">Personajes secundarios</h7><br>
+                <h7 class="card-subtitle  mb-2 text-muted">importantes.</h7>
               </div>
             </div>
           </div>
+        </div>
 
+        
+        <div class="d-flex flex-wrap " id="informacionCardsDos">
 
         </div>
+
+        
+
+
+        <div id="informacionCantidadTres" class="mt-5 mb-0 font-italic font-weight-bold fs-5"></div>
+        
+        <div class="col-lg-6 col-xl-4 mb-5">
+          <div class="card p-3">
+            <div class=" d-flex align-items-center">
+              <div class="col-1 rounded-circle  colorAzulClarito circuloTarjetas"></div>
+              <div class="ms-3">
+                <h5 class="card-title  fw-bold">En esta Sección...</h5>
+                <h7 class="card-subtitle p mb-2 text-muted">Encontraras otros personajes</h7><br>
+                <h7 class="card-subtitle mb-2 text-muted">Significativos.</h7>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex flex-wrap " id="informacionCardsTres">
+
+        </div>
+
+  
       </div>
-    
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
+    </div>
 
 
 
@@ -93,8 +99,7 @@
 
 
 
-
-    <script src="Asset/Js/callbackDosAsincrono.js"></script>
+    <script src="Asset/Js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
   
